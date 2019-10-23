@@ -4,6 +4,7 @@
 #include <vector>
 #include "./goods.h"
 
+namespace project1 {
 // Shopping class presents List of shopping.
 // Example:
 //     Shopping tobuylist;
@@ -13,16 +14,16 @@
 //     tobuylist.PushList(obj1);
 //     tobuylist.PushList(obj2);
 //     tobuylist.PrintList();
-class Shopping{
- public:
-  void PushList(Goods object);
-  Goods GetLastElement();
-  void PrintList();
-  void SortByPrice();
-  void SortByIndex();
+class Shopping {
+public:
+	void PushList(Goods object);
+	Goods GetLastElement();
+	void PrintList();
+	void SortByPrice();
+	void SortByIndex();
 
- private:
-  std::vector<Goods> shopping_list_;
+private:
+	std::vector<Goods> shopping_list_;
 };
-
+} // namespace project1
 #endif  // SHOPPING_H_

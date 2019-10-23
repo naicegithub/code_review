@@ -1,6 +1,8 @@
 #include "./shopping.h"
 #include <gtest/gtest.h>
 
+using namespace project1;
+
 // TEST (testCaseName, testName){
 //   ... test body ...
 // }
